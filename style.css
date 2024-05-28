@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,
+body{
+    height: 100%;
+    width: 100%;
+}
+.box1{
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(purple, rgba(179, 18, 179, 0.673), blue );
+}
+.box2{
+    height: 90%;
+    width: 70%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 20px;
+}
+.one{
+    height: 100%;
+    width: 70%;
+    background-color: white;
+
+    position: absolute;
+    
+}
+.two{
+    clip-path: polygon(40% 0, 100% 0, 100% 100%, 39% 100%, 59% 50%);
+    height: 100%;
+    width: 100%;
+    background-color: rgb(215, 101, 215);
+    
+}
+.img{
+    height: 90%;
+    width: 30%; 
+    margin-left: 750px;
+    margin-top: 160px;
+    height: 30%;
+    width: 10%;
+    background-image: url("images-removebg-preview.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.nav{
+
+
+display: flex;
+justify-content: space-around;
+margin-left: 190px;
+cursor: pointer;
+
+}
+li{
+    
+    list-style: none;
+    margin-top: 10px;
+    font-size: 22px;
+    color: rgb(82, 7, 125);
+
+
+    
+}
+button{
+    padding: 10px 18px;
+    border: 1px solid black;
+    color: black;
+    background-color: transparent;
+    border-radius: 10px;
+    font-size: 15px;
+
+
+}
+h2{
+    font-size: 38px;
+   color: rgb(125, 7, 122);
+}
+p{
+   font-size: 17px; 
+}
+button{
+    background-color: rgb(44, 4, 99);
+    color: beige;
+    padding: 8px 22px;
+    border-radius: 17px;
+}
+.box3{
+    margin-left: 15%;
+    margin-top: 100px;
+}
+h1{
+    margin-top: -10px;
+    color: rgb(82, 7, 125);
+}
